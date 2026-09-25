@@ -1,6 +1,6 @@
 .DS_Store
 build
-.iconset
+*.iconset
 infer-out
 .clangd
 .cache
