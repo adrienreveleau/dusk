@@ -10,6 +10,9 @@ clean:
 	rm -rf build
 	cmake -S . -B build
 
+infer:
+	infer run --compilation-database build/compile_commands.json
+
 icon_gen:
 	mkdir dusk.iconset
 
