@@ -1,0 +1,10 @@
+CompileFlags:
+  Add: [
+    "-I/usr/local/include", 
+    "-I/Users/said/Documents/dev/libs/vcpkg/installed/arm64-osx/include", 
+    -x, 
+    objective-c++, 
+    -isysroot, 
+
+    /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk,
+  ]
